@@ -1,0 +1,249 @@
+/*navigator*/ ul {list-style-type: none;
+  			margin: 0;
+  			padding: 0;
+  			overflow: hidden;
+  			background-color: #0066ff;
+  			position: fixed;
+  			top: 0;
+  			width: 100%;
+  			z-index: 1;}
+li {float: left;}
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 2.005730659025788vw;
+	text-decoration: none;
+	font-size: 2.4355300859598854vw }
+li a:hover:not(.active){background-color: #9196ff}
+.active {background-color: #70c2ff} /*navigator*/
+
+/*SOCIAL MEDIA BUTTONS*/.buttonstyle {padding: 2.8694404591104736vw;
+  width: 4.30416068866571vw;
+  position: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  cursor: pointer;}
+  .buttonstyle:hover{background-color: #afaeb0;}
+  	/*CLOSED SOCIAL MEDIA BUTTONS*/
+
+/*IMAGES IN GALLERY HOVER EFFECT*/
+.imglink {
+	cursor: pointer;
+}
+.imglink:hover {opacity: 4.0;}  
+
+/*custom cursor*/
+	
+
+/*applied to all tabs*/
+head {text-align: center;}
+	p {text-align: center;}
+		
+		body {background-image: url('image/Webbg.jpg');} 
+				img {
+ 			 display: block;
+ 			 margin-left: auto;
+  			margin-right: auto;}
+
+.newhead {background-color: #99c9ff;
+		font-family: Helvetica, sans-serif;
+		font-size: 1.4em;
+		word-spacing: 1.1em;  
+		padding: 20px;
+		border: 20px solid white;
+		margin: 20px auto;
+	} 
+.thehead {
+position: relative;
+width: 100%;
+padding: 1.0043041606886658vw 0.7173601147776184vw;
+left: 0vw;
+top: 6vw;
+font-size: 2.8694404591104736vw;
+z-index: 0;
+}
+.content{
+	border: 1.4347202295552368vw solid white;
+	position: relative;
+display: inline-block;
+left: 0vw;
+top: 0vw;
+font-size: 2vw;
+background-color: #99c9ff;
+z-index: 0;
+}
+.italic{font-style: italic;}
+.bold{font-style: bold;}
+.optionscolor{color: gray;}
+.center{margin: auto;
+	width: 50%;
+padding: 2.152080344332855vw;}
+
+h1{color: white;}
+	p{color: lavender;
+		font-family: Helvetica, sans-serif;
+		margin: auto;}
+
+
+/*animations begin here*/		
+.MW {
+	  position: relative; 
+	animation: MW 4s linear infinite;}
+
+/*animations end here*/
+
+/*keyframes start here*/
+
+@keyframes MW {
+  0%   {left:0vw; top:0vw;}
+  
+  50%  {left:7.173601147776184vw; right:7.173601147776184vw;}
+ 
+  100% {left:0vw; right:0vw;}
+}
+
+.b1 {animation: movebubble 25s linear infinite, wiggle 2s ease-in-out infinite alternate;
+	-moz-animation: movebubble 25s linear infinite, wiggle 2s ease-in-out infinite alternate;
+	animation: movebubble 25s linear infinite, wiggle 2s ease-in-out infinite alternate;
+	
+	left: -5%;
+	top: 5%;
+	
+	transform: scale(0.6);
+	-moz-transform: scale(0.6);
+	transform: scale(0.6);}
+
+.b2 {
+
+	animation: movebubble 20s linear infinite, wiggle 4s ease-in-out infinite alternate;
+	-moz-animation: movebubble 20s linear infinite, wiggle 4s ease-in-out infinite alternate;
+	animation: movebubble 20s linear infinite, wiggle 4s ease-in-out infinite alternate;
+	
+	left: 5%;
+	top: 80%;
+	
+	transform: scale(0.4);
+	-moz-transform: scale(0.4);
+	transform: scale(0.4);}
+
+.b3 {
+	animation: movebubble 28s linear infinite, wiggle 2s ease-in-out infinite alternate;
+	-moz-animation: movebubble 28s linear infinite, wiggle 2s ease-in-out infinite alternate;
+	animation: movebubble 28s linear infinite, wiggle 2s ease-in-out infinite alternate;
+	left: 10%;
+	top: 40%;
+	transform: scale(0.7);
+	-moz-transform: scale(0.7);
+	transform: scale(0.7);}
+
+.b4 {
+	animation: movebubble 22s linear infinite, wiggle 3s ease-in-out infinite alternate;
+	-moz-animation: movebubble 22s linear infinite, wiggle 3s ease-in-out infinite alternate;
+	animation: movebubble 22s linear infinite, wiggle 3s ease-in-out infinite alternate;	
+	left: 20%;
+	top: 0;
+	transform: scale(0.3);
+	-moz-transform: scale(0.3);
+	transform: scale(0.3);}
+
+@keyframes movebubble {0% {margin-top: 100px;}
+	100% {margin-top: -100%}}
+
+@keyframes movebubble {0% {margin-top: 100px;}
+	100% {margin-top: -100%}}
+
+@keyframes movebubble {0% {margin-top: 100px;}
+	100% {margin-top: -100%}}
+
+@keyframes movebubble {	0% {margin-top: 100px;}
+	100% {margin-top: -100%}}
+
+
+
+
+.bgwrap-forbubbles {bottom: 0; left: 0; position: fixed; right: 0; top: 0; z-index: 0;}
+
+.fcont {
+	position: relative;
+	top: 10%;
+	z-index: -1;}
+
+/*IMAGE GRID IN GALLERY*/
+.row {
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  padding: 0 0.5738880918220947vw;}
+.column {
+  -ms-flex: 50%; 
+  flex: 50%;
+  padding: 0 0.5738880918220947vw;}
+.column img {
+  margin-top: 1.1477761836441893vw;
+  vertical-align: middle;}
+
+/*BUTTON STYLE IN GALLERY*/
+
+
+
+.button {
+  border: none;
+  outline: none;
+  padding: 1.4347202295552368vw 2.2955523672883786vw;
+  background-color: #6699ff;
+  cursor: pointer;
+  font-size: 2.582496413199426vw;
+}
+
+.button:hover {
+  background-color: #b299ff;
+}
+
+.button.active {
+  background-color: #0099ff;
+  color: white;
+}
+
+/*NEW GALLERY STYLE*/
+
+/*4 equal columns floating next to each other*/
+.column {float: left;
+width: 25%;
+padding: 1.4347202295552368vw;}
+
+/*grid images style*/
+.column img{opacity: 0.8;
+cursor: pointer;}
+
+.column img:hover {opacity: 1;}
+
+/*floats cleared after columns*/
+.row:after{content: "";
+display: table;
+clear: both;}
+
+/*expanding image container*/
+.container {position: relative;
+display: none;}
+
+/*expanding image text*/
+#imgtext {
+  position: absolute;
+  bottom: 2.152080344332855vw;
+  left: 2.152080344332855vw;
+  color: white;
+  font-size: 2.8694404591104736vw;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 1.4347202295552368vw;
+  right: 2.152080344332855vw;
+  color: white;
+  font-size: 5.0215208034433285vw;
+  cursor: pointer;
+}
