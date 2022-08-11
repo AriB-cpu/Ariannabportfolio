@@ -15,16 +15,14 @@ function one() {
 function two() {
   for (i = 0; i < elements.length; i++) {
     elements[i].style.msFlex = "50%";  
-    elements[i].style.flex = "50%";
-  }
+    elements[i].style.flex = "50%";}
 }
 
 // 3 images next to each other
 function three() {
   for (i = 0; i < elements.length; i++) {
     elements[i].style.msFlex = "25%";  
-    elements[i].style.flex = "25%";
-  }
+    elements[i].style.flex = "25%";}
 }
 
 // Add active class to the current button (highlight it)
